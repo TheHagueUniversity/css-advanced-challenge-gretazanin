@@ -1,0 +1,66 @@
+body {
+    margin: 55px;
+}
+
+#title {
+    color: black;
+}
+
+.mondriaan {
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+    grid-auto-rows: 50px;
+    border: 5px solid black;
+}
+
+.box {
+    background-color: white;
+    border: 3px solid black;
+    border-bottom-color: black;
+}
+
+.box1 {
+    grid-column: auto / span 2;
+}
+
+.box2 {
+    grid-column: auto / span 3;
+}
+
+.box3 {
+    grid-column: auto / span 2;
+}
+
+.box4 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+}
+
+.box5 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 1;
+}
+
+.box6 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 1;
+}
+
+.box7 {
+    grid-column: auto / span 3;
+}
+
+.box8 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 2;
+}
+
+.box9 {
+    grid-column: 2 / span 4;
+    grid-row: 2 / span 4;
+}
+
+.box10 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+}
