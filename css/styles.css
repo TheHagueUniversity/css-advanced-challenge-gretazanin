@@ -7,6 +7,10 @@ body {
     text-align: center;
 }
 
+li{
+list-style: none;
+}
+
 .mondriaan {
     display: grid; 
     grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
