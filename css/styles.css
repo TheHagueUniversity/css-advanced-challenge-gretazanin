@@ -21,124 +21,251 @@ list-style: none;
 .mondriaan {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
-        grid-template-rows: auto;
-    grid-auto-rows: 65px;
+    grid-auto-rows: 50px;
     color: gray;
     grid-auto-flow: dense;
-    border: 15px solid black;
+    border: 10px solid black;
 }
+
 
 .box {
     background-color: white;
-    border: 5px solid black;
+    border: 3px solid black;
 }
 
 .box1 {
     grid-column: auto / span 2;
-    background-color: blue;
+       background-color: yellow;
 }
 
 .box2 {
     grid-column: auto / span 3;
-        background-color: white;
 }
 
 .box3 {
     grid-column: auto / span 2;
-        background-color: yellow;
+     background-color: blue;
+ 
 }
 
 .box4 {
     grid-column: auto / span 2;
     grid-row: auto / span 2;
-        background-color: white;
+     background-color: yellow;
+    
+   
 }
 
 .box5 {
     grid-column: auto / span 1;
     grid-row: auto / span 1;
-        background-color: red;
+   X
 }
 
 .box6 {
     grid-column: auto / span 1;
     grid-row: auto / span 1;
-        background-color: white;
+    background-color: black;
 }
 
 .box7 {
     grid-column: auto / span 3;
-        background-color: blue;
 }
 
 .box8 {
     grid-column: auto / span 1;
     grid-row: auto / span 2;
-    background-color: red;
 }
 
 .box9 {
     grid-column: 2 / span 4;
     grid-row: 2 / span 4;
-        background-color: yellow;
+    background-color: red;
 }
 
 .box10 {
     grid-column: auto / span 2;
     grid-row: auto / span 2;
+    background-color: yellow;
 }
 
 .box11 {
     grid-column: auto / span 2;
-    background-color: blue;
+    grid-row: auto / span 1;
+    background-color: yellow;
 }
 
 .box12 {
-    grid-column: auto / span 3;
-        background-color: white;
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
 }
 
 .box13 {
-    grid-column: auto / span 2;
-        background-color: yellow;
+    grid-column: auto / span 1;
+    grid-row: auto / span 3;
+    background-color: yellow;
 }
 
 .box14 {
     grid-column: auto / span 2;
     grid-row: auto / span 2;
-        background-color: white;
+    background-color: blue;
 }
 
 .box15 {
-    grid-column: auto / span 1;
+    grid-column: auto / span 2;
     grid-row: auto / span 1;
-        background-color: red;
+    background-color: black;
 }
 
 .box16 {
     grid-column: auto / span 1;
-    grid-row: auto / span 1;
-        background-color: white;
+    grid-row: auto / span 3;
 }
 
 .box17 {
-    grid-column: auto / span 3;
-        background-color: blue;
+    grid-column: auto / span 1;
+    grid-row: auto / span 2;
 }
 
 .box18 {
     grid-column: auto / span 1;
     grid-row: auto / span 2;
-    background-color: red;
+     background-color: red;
 }
 
 .box19 {
-    grid-column: 2 / span 4;
-    grid-row: 2 / span 4;
-        background-color: yellow;
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
 }
 
 .box20 {
     grid-column: auto / span 2;
     grid-row: auto / span 2;
+    background-color: black;
+}
+
+.box21 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+}
+
+.box22 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+}
+
+.box23 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 3;
+}
+
+.box24 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+    background-color: black;
+}
+
+.box25 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+}
+
+.box26 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+}
+
+.box27 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 2;
+     background-color: red}
+
+.box28 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 2;
+}
+
+.box29 {
+    grid-column: auto / span 4;
+    grid-row: auto / span 4;
+    background-color: blue;
+}
+
+.box30 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 3;
+    background-color: yellow;
+}
+
+.box31 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+}
+
+.box32 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+    background-color: blue;
+}
+
+.box33 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+}
+
+.box34 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+    background-color: blue;
+}
+
+.box35 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+    background-color: yellow;
+}
+
+.box36 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 2;
+}
+
+.box37 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 2;
+    background-color: yellow;
+}
+
+.box38 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 2;
+}
+
+.box39 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+    background-color: red;
+}
+
+.box40 {
+    grid-column: auto / span 3;
+    grid-row: auto / span 1;
+}
+
+.box41 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+    background-color: yellow;
+}
+
+.box42 {
+    grid-column: auto / span 3;
+    grid-row: auto / span 1;
+     background-color: yellow;
+}
+
+.box43 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
 }
