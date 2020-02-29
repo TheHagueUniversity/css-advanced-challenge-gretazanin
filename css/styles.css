@@ -2,69 +2,143 @@ body {
     margin: 55px;
 }
 
+header {
+    
+}
 #title {
     font-family: 'Anton' ;
     text-align: center;
+    font-size: 50px;
+    background-color: yellow;
 }
+
+
 
 li{
 list-style: none;
 }
 
 .mondriaan {
-    display: grid; 
+    display: grid;
     grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
-    grid-auto-rows: 50px;
-    border: 5px solid black;
+        grid-template-rows: auto;
+    grid-auto-rows: 65px;
+    color: gray;
+    grid-auto-flow: dense;
+    border: 15px solid black;
 }
 
 .box {
     background-color: white;
-    border: 3px solid black;
+    border: 5px solid black;
 }
 
 .box1 {
     grid-column: auto / span 2;
+    background-color: blue;
 }
 
 .box2 {
     grid-column: auto / span 3;
+        background-color: white;
 }
 
 .box3 {
     grid-column: auto / span 2;
+        background-color: yellow;
 }
 
 .box4 {
     grid-column: auto / span 2;
     grid-row: auto / span 2;
+        background-color: white;
 }
 
 .box5 {
     grid-column: auto / span 1;
     grid-row: auto / span 1;
+        background-color: red;
 }
 
 .box6 {
     grid-column: auto / span 1;
     grid-row: auto / span 1;
+        background-color: white;
 }
 
 .box7 {
     grid-column: auto / span 3;
+        background-color: blue;
 }
 
 .box8 {
     grid-column: auto / span 1;
     grid-row: auto / span 2;
+    background-color: red;
 }
 
 .box9 {
     grid-column: 2 / span 4;
     grid-row: 2 / span 4;
+        background-color: yellow;
 }
 
 .box10 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+}
+
+.box11 {
+    grid-column: auto / span 2;
+    background-color: blue;
+}
+
+.box12 {
+    grid-column: auto / span 3;
+        background-color: white;
+}
+
+.box13 {
+    grid-column: auto / span 2;
+        background-color: yellow;
+}
+
+.box14 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+        background-color: white;
+}
+
+.box15 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 1;
+        background-color: red;
+}
+
+.box16 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 1;
+        background-color: white;
+}
+
+.box17 {
+    grid-column: auto / span 3;
+        background-color: blue;
+}
+
+.box18 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 2;
+    background-color: red;
+}
+
+.box19 {
+    grid-column: 2 / span 4;
+    grid-row: 2 / span 4;
+        background-color: yellow;
+}
+
+.box20 {
     grid-column: auto / span 2;
     grid-row: auto / span 2;
 }
