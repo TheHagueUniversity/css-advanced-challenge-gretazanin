@@ -3,7 +3,8 @@ body {
 }
 
 #title {
-    color: black;
+    font-family: 'Anton' ;
+    text-align: center;
 }
 
 .mondriaan {
